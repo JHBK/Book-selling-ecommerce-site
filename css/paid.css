@@ -1,0 +1,196 @@
+body {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial, sans-serif;
+    color: #383838;
+    background: #3b3b3b url(images/body.png);
+}
+.header_area {
+	height: 100px;
+	background: #fff;
+	width: 100%;
+	margin-top: -6px;
+}
+
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.nav a {
+	text-decoration: none;
+	color: #0C0C0D;
+	display: block;
+	transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+
+ 
+
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+
+.nav li {
+	display: inline-block;
+	margin-right: -4px;
+}
+ 
+  
+
+.logo {
+	/* margin-top: 35px; */
+	margin-left: 26px;
+	margin-top: 32px;
+	display: inline;
+	width: 500px;
+	height: 100px;
+	/* margin-top: -20px; */
+	position: absolute;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 34px;
+	color: red;
+	/* border-radius: 7%; */
+	background: re;
+	font-family: cursive;
+	/* margin-top: 5px; */
+	margin-bottom: -20px;
+	height: 100px;
+	margin-top: -12px;
+}
+.nav {
+	margin-top: 19px;
+	width: 668px;
+	font-size: righ;
+	float: right;
+}
+.nav ul {
+	list-style: none;
+	/* background-color: #444; */
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.pay_area{}
+
+.contact {
+	font-size: 23px;
+}
+
+h1 {
+	margin-top: -114px;
+	text-decoration: underline;
+	font-size: 50px;
+	text-align: center;
+}
+	  h2{
+		  text-decoration:underline;
+		  font-size:23px;
+	  }
+
+      ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+      }
+
+      form {
+	margin: 0 auto;
+	width: 500px;
+	padding: 14em;
+	border: 3px solid #CCC;
+	border-radius: 30px 0px 30px 0px;
+	background-color: #ff8533;
+	border-color: black;
+}
+
+      div+div {
+          margin-top: 1em;
+      }
+
+      label span {
+          display: inline-block;
+          width: 133px;
+          text-align: right;
+		  
+      }
+
+      input, textarea {
+          font: 1em sans-serif;
+          width: 250px;
+          box-sizing: border-box;
+          border: 1px solid #999;
+		  border-color:black;
+      }
+
+      input[type=checkbox], input[type=radio] {
+          width: auto;
+          border: auto;
+      }
+
+      input:focus, textarea:focus {
+          border-color: #000;
+      }
+
+      textarea {
+          vertical-align: top;
+          height: 5em;
+          resize: vertical;
+		  
+      }
+
+      fieldset {
+          width: 250px;
+          box-sizing: border-box;
+          margin-left: 136px;
+          border: 1px solid #999;
+		  border-color:black;
+      }
+
+      button {
+    margin: 20px 0 0 124px;
+    
+      }
+
+      label {
+        position: relative;
+      }
+
+      label em {
+        position: absolute;
+        right: 5px;
+        top: 20px;
+	  }
+	  
+	.info {
+	font-size: 20px;
+	margin-top: 88px;
+}
+
+.footer_area{}
+.copy{}
+.copy p {
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}

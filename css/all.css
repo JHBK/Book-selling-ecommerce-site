@@ -1,0 +1,187 @@
+body {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial, sans-serif;
+    color: #383838;
+    background: #3b3b3b url(images/body.png);
+}
+.header_area {
+	height: 100px;
+	background: #fff;
+	width: 100%;
+	margin-top: -6px;
+}
+
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.nav a {
+	text-decoration: none;
+	color: #0C0C0D;
+	display: block;
+	transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+
+.nav li {
+	display: inline-block;
+	margin-right: -4px;
+}
+ 
+  
+
+.logo {
+	/* margin-top: 35px; */
+	margin-left: 26px;
+	margin-top: 32px;
+	display: inline;
+	width: 500px;
+	height: 100px;
+	/* margin-top: -20px; */
+	position: absolute;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 34px;
+	color: red;
+	/* border-radius: 7%; */
+	background: re;
+	font-family: cursive;
+	/* margin-top: 5px; */
+	margin-bottom: -20px;
+	height: 100px;
+	margin-top: -12px;
+}
+.nav {
+	margin-top: 19px;
+	width: 668px;
+	font-size: righ;
+	float: right;
+}
+.nav ul {
+	list-style: none;
+	/* background-color: #444; */
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.sa_area{ 
+height:700px
+
+}
+
+#wrapper {
+	margin-top: 8px;
+	position: absolute;
+	margin-top: 113px;
+	width: 99%;
+}
+
+.ab_area {
+	height: 700px;
+	background: wheat;
+}
+.abt {
+	border-bottom: 6px solid green;
+}
+.abt h1 {
+	text-align: center;
+	color: red;
+	font-size: 32px;
+	/* margin-top: 16px; */
+	padding-top: 68px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.ac {
+	width: 550px;
+	float: left;
+	display: block;
+}
+.ac ul{}
+.ac ul li{}
+.ac ul li p {
+	font-size: 23px;
+	color: blue;
+	font-family: cursive;
+}
+
+.ac ul li p span{}
+
+
+
+
+.bc {
+	width: 550px;
+	float: right;
+	display: block;
+}
+.bc ul{}
+.bc ul li{}
+.bc ul li p {
+	font-size: 23px;
+	color: blue;
+	font-family: cursive;
+}
+
+.bc ul li p span{}
+
+
+.footer_area{}
+.copy{}
+.copy p {
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

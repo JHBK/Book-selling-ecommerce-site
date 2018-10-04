@@ -1,0 +1,173 @@
+body {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial, sans-serif;
+    color: #383838;
+    background: #3b3b3b url(images/body.png);
+}
+.header_area {
+	height: 100px;
+	background: #fff;
+	width: 100%;
+	margin-top: -6px;
+}
+
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.nav a {
+	text-decoration: none;
+	color: #0C0C0D;
+	display: block;
+	transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+
+.nav li {
+	display: inline-block;
+	margin-right: -4px;
+}
+ 
+  
+
+.logo {
+	/* margin-top: 35px; */
+	margin-left: 26px;
+	margin-top: 32px;
+	display: inline;
+	width: 500px;
+	height: 100px;
+	/* margin-top: -20px; */
+	position: absolute;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 34px;
+	color: red;
+	/* border-radius: 7%; */
+	background: re;
+	font-family: cursive;
+	/* margin-top: 5px; */
+	margin-bottom: -20px;
+	height: 100px;
+	margin-top: -12px;
+}
+.nav {
+	margin-top: 19px;
+	width: 668px;
+	font-size: righ;
+	float: right;
+}
+.nav ul {
+	list-style: none;
+	/* background-color: #444; */
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.wwd_area {
+	height: 1000x;
+	background: #F9DDB7;
+	margin-top: -23px;
+}
+.we h1 {
+	text-align: center;
+	padding-top: 23px;
+	font-size: 28px;
+	color: #6657A6;
+}
+.we p {
+	font-size: 22px;
+	/* font-size: w; */
+	font-size: ;
+	font-family: Tahoma;
+	/* height: 508px; */
+	/* width: 1174px; */
+	line-height: 36px;
+}
+.we{}
+
+
+.pm {
+	height: 600px;
+}
+.pm h1 {
+	text-align: center;
+	font-size: 31px;
+	color: #AB4E8A;
+}
+.rafsan {
+	width: 550px;
+	margin-left: 83px;
+	margin-top: 105px;
+	float: left;
+	display: block;
+}
+.rafsan img {
+	width: 183px;
+	/* margin-left: 109px; */
+	/* display: block; */
+	margin-left: 151px;
+	height: 303px;
+}
+.rafsan h2{}
+.rafsan p {
+	font-size: 16px;
+	/* left: 4px; */
+	line-height: 29px;
+}
+
+.akash {
+	width: 550px;
+	margin-left: 83px;
+	margin-top: -489px;
+	float: right;
+	display: block;
+}
+.akash img {
+	width: 183px;
+	height: 303px;
+	margin-left: 174px;
+}
+.akash h2{}
+.akash p{font-size: 16px;
+	/* left: 4px; */
+	line-height: 29px;}
+
+.footer_area{}
+.copy{}
+.copy p {
+	color: red;
+	font-size: 20px;
+	/* text-align: center; */
+	/* margin-right: 60px; */
+	font-size: ;
+	float: right;
+	margin-right: 367px;
+}
+

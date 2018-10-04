@@ -1,0 +1,282 @@
+/* * { margin: 0; padding: 0; outline: 0; } */
+
+body {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial, sans-serif;
+    color: #383838;
+    background: #3b3b3b url(images/body.png);
+}
+.header_area {
+	height: 100px;
+	background: #fff;
+	width: 100%;
+	margin-top: -6px;
+}
+
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.nav a {
+	text-decoration: none;
+	color: #0C0C0D;
+	display: block;
+	transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+
+.nav li {
+	display: inline-block;
+	margin-right: -4px;
+}
+ 
+  
+
+.logo {
+	/* margin-top: 35px; */
+	margin-left: 26px;
+	margin-top: 32px;
+	display: inline;
+	width: 500px;
+	height: 100px;
+	/* margin-top: -20px; */
+	position: absolute;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 34px;
+	color: red;
+	/* border-radius: 7%; */
+	background: re;
+	font-family: cursive;
+	/* margin-top: 5px; */
+	margin-bottom: -20px;
+	height: 100px;
+	margin-top: -12px;
+}
+.nav {
+	margin-top: 19px;
+	width: 668px;
+	font-size: righ;
+	float: right;
+}
+.nav ul {
+	list-style: none;
+	/* background-color: #444; */
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.slider_area{}
+.si{}
+.si img {
+	width: 100%;
+}
+.stext {
+	width: 700px;
+	height: 300px;
+	text-align: center;
+	margin-top: -428px;
+	margin-left: 307px;
+	font-size: 20px;
+	/* padding-top: -2px; */
+	font-size: ;
+	color: #87C540;
+	font-family: cursive;
+}
+.stext h1{}
+.stext h1 br {
+	margin-top: 34px;
+}
+.setext p {}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+	background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+	background-color:#d0451b;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.side_area {
+	width: 100%;
+	height: 700px;
+	background: #fff;
+}
+.menu_simple {
+	margin-top: 132px;
+	position: absolute;
+	height: 300px;
+	/* width: 100%; */
+}
+.menu_simple h1 {
+	text-align: center;
+	color: red;
+}
+
+.menu_simple ul {
+	margin: 0;
+	padding: 0;
+	width: 278px;
+	list-style-type: none;
+	/* height: 37px; */
+	/* height: 122px; */
+}
+.menu_simple ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10.5px 11px;
+	background-color: #005555;
+	display: block;
+	height: 58px;
+	border-top: 2px solid #6657A6;
+	text-align: center;
+	padding-top: 13px;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.menu_simple ul li a:visited {
+    color: white;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #5FD367;
+}
+
+.products{}
+.products h3 {
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}
+.ftp {
+	float: right;
+	/* width: 250px; */
+	margin-top: 120px;
+	margin-right: 109px;
+}
+.p1{}
+
+.products ul { list-style: none; position: relative; width: 660px; margin-left: -7px; width: 660px; }
+.products ul li { float: left; display: inline; width: 150px; height: 343px; margin: 0 15px 14px 0; }
+.products ul li a.info { display: block; padding: 7px; width: 136px; height: 329px; }
+.products ul li a.info:hover { background: url(images/product-hover.png) no-repeat 0 0; text-decoration: none; }
+.products ul li a.info .holder {
+	padding: 14px 9px;
+	border: solid 1px #dcdcdc;
+	display: block;
+	height: 387px;
+}
+.products .product { width: 134px; position: relative; }
+.products img { padding: 0 7px 4px; width: 102px; height: 160px; }
+.product .buy-btn {
+	position: absolute;
+	bottom: -54px;
+	left: 7px;
+	background:url(images/buy-btn.png) repeat-x 0 0;
+	width: 126px;
+	height: 31px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 31px;
+	text-transform: uppercase;
+	font-weight: bold;
+	z-index: 10;
+	padding-left: 10px;
+	white-space: nowrap;
+	/* margin-top: -19px; */
+}
+.product .buy-btn:hover { text-decoration: none; }
+.product .buy-btn .price { padding: 0 7px; background: url(images/price.png) repeat-x 0 0; font-size: 22px; line-height: 29px; position: absolute; top: 0; right: 0; height: 31px; }
+.product .buy-btn .price .low { font-size: 14px; vertical-align: baseline; }
+.product .buy-btn .price .high { font-size: 11px; line-height: 14px; vertical-align: super; }
+
+.product .book-name { font-size: 12px; line-height: 20px; color: #0182b5; font-family: 'Georgia', Arial, serif; display: block; }
+.product .author { font-size: 11px; line-height: 14px; color: #3d3d3d; font-family: 'Georgia', Arial, serif; padding: 0 0 9px 1px; display: block; }
+.product .description { font-size: 11px; line-height: 16px; color: #878787; }
+
+
+
+
+
+
+.footer_area{}
+.copy{}
+.copy p {
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
